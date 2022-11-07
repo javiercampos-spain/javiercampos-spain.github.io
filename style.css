@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
-@import url('https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css');
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+<!-- Add all icons to the library so you can use it in your page -->
+library.add(fas, far, fab)
+
 
 :root {
     --bgColor: #223344;
