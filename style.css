@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
-<!-- Add all icons to the library so you can use it in your page -->
-library.add(fas, far, fab)
-
 
 :root {
     --bgColor: #223344;
